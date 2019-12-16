@@ -1,0 +1,5 @@
+In file included from HelloWorld/hello.cpp:3:0:
+/usr/include/CL/cl2.hpp:389:109: note: #pragma message: cl2.hpp: CL_HPP_TARGET_OPENCL_VERSION is not defined. It will default to 200 (OpenCL 2.0)
+ # pragma message("cl2.hpp: CL_HPP_TARGET_OPENCL_VERSION is not defined. It will default to 200 (OpenCL 2.0)")
+                                                                                                             ^
+make: *** [hello] Interrupt
