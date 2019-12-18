@@ -21,3 +21,7 @@ ex3: Examples/ex3.c
 ex4: Examples/ex4.c
 	g++ Examples/ex4.c -o Examples/ex -lOpenCL
 	./Examples/ex
+
+ex5: Examples/ex5.c
+	g++ Examples/ex5.c Examples/bmpfuncs.c -o Examples/ex -lOpenCL
+	./Examples/ex ./Examples/input.bmp ./Examples/output.bmp
